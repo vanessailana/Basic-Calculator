@@ -2,9 +2,107 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	dfsdfdsfdsf
-</body>
-</html>
+	
+ <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+            
+            <script type="text/javascript">
+                function c(val)
+                {
+                    document.getElementById("d").value=val;
+                }
+            function math(val)
+            {
+                document.getElementById("d").value+=val;
+            }
+            function e()
+            {
+                try
+                {
+                    c(eval(document.getElementById("d").value))
+                }
+                catch(e)
+                {
+                    c('Error')
+                }
+            }
+            
+            
+            
+            
+                </script>
+          
+            </script>
+    </head>
+    <body>
+        
+        
+        
+
+        
+        <div class="box">
+            <div class="display"><input type="text" readonly id="d">  </div>
+            
+    
+    
+                <input type="button" class="btnred" value="C" onclick='c("")'>
+                    
+                    <input type="button" class="btnwhite" value="+" onclick='math("+")'>
+                       <input type="button" class="btnwhite" value="-" onclick='math("-")'>                           <input type="button" class="btnwhite" value="/" onclick='math("/")'>
+                               <input type="button" class="btnwhite" value="x" onclick='math("*")'>
+                            
+                            
+
+
+<input type="button" class="btnwhite" value="0" onclick='math("0")'>
+    
+
+    <input type="button" class="btnwhite" value="1" onclick='math("1")'>
+                
+                
+                
+        <input type="button" class="btnwhite" value="2" onclick='math("2")'>
+                    
+                    
+                    
+                    
+            <input type="button" class="btnwhite" value="3" onclick='math("3")'>
+                        
+                        
+            <input type="button" class="btnwhite" value="4" onclick='math("4")'>
+                            
+                            
+                            
+                <input type="button" class="btnwhite" value="5" onclick='math("5")'>
+                                
+                                
+                                
+                <input type="button" class="btnwhite" value="6" onclick='math("6")'>
+                                    
+                                    
+                <input type="button" class="btnwhite" value="7" onclick='math("7")'>
+                                        
+                                        
+                    <input type="button" class="btnwhite" value="8" onclick='math("8")'>
+                                            
+                                            
+                        <input type="button" class="btnwhite" value="9" onclick='math("9")'>
+                            
+                            
+                            
+                            <input type="button" class="btnwhite" value="." onclick='math(".")'>
+
+                                                
+                                                
+                    <input type="button" class="btnwhite" value="=" onclick='e()'>
+                                                    
+                                                    
+                                                    
+                                                
+                                    
+                                
+                            
+                            </body>
+    
+    </div>
+                            
